@@ -1,0 +1,6 @@
+logging:
+  level:
+    org.springframework.boot.autoconfigure.mongoembedded: debug
+    org.mongodb: debug
+
+spring.mongodb.embedded.version: "5.0.2"
