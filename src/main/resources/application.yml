@@ -1,6 +1,10 @@
 logging:
   level:
-    org.springframework.boot.autoconfigure.mongoembedded: debug
-    org.mongodb: debug
+    org.springframework.boot.autoconfigure.mongoembedded: info
+    org.mongodb: info
 
-spring.mongodb.embedded.version: "5.0.2"
+spring:
+  mongodb.embedded.version: "5.0.2"
+  data.mongodb:
+    database: comments
+
